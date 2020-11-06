@@ -1,0 +1,1 @@
+open("data_file/example.txt")
