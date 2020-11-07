@@ -6,4 +6,4 @@ print(file)
 
 print(file.mode)
 print(file.name)
-file.close
+print(file.closed)
