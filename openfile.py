@@ -7,3 +7,6 @@ print(file)
 print(file.mode)
 print(file.name)
 print(file.closed)
+
+file.close()
+print(file.closed)
