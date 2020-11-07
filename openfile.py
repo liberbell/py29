@@ -10,3 +10,6 @@ print(file.closed)
 
 file.close()
 print(file.closed)
+
+file = open("data_file/example.txt")
+print(file.read())
