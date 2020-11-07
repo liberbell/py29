@@ -20,3 +20,6 @@ print(file.tell())
 print(file.read(5))
 
 print(file.tell())
+
+file.seek(0)
+print(file.tell())
