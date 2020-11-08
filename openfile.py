@@ -24,4 +24,4 @@ print(file.tell())
 file.seek(0)
 print(file.tell())
 
-print(file.read[1:5])
+print(file.read(1:5))
