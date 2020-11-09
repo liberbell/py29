@@ -46,4 +46,10 @@ with open("data_file/example.txt") as f:
 file = open("data_file/sample.txt", "w")
 file.close()
 
+file = open("data_file/sample.txt", "w")
+file.wirite("Let's check the write operation.")
+file.close()
 
+file = open("data_file/sample.txt")
+print(file)
+file.close()
