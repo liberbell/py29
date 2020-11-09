@@ -35,3 +35,10 @@ with open("data_file/example.txt") as f:
 
 print(data)
 print(f.closed)
+
+with open("data_file/example.txt") as f:
+    line = f.readline()
+
+    while line:
+        print(line):
+        line = f.readline()
