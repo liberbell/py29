@@ -51,5 +51,5 @@ file.write("Let's check the write operation.")
 file.close()
 
 file = open("data_file/sample.txt")
-print(file)
+print(file.read())
 file.close()
