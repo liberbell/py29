@@ -68,3 +68,4 @@ file.close()
 file = open("data_file/sample.txt")
 for lines in file:
     print(lines)
+file.close()
