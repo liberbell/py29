@@ -42,3 +42,6 @@ with open("data_file/example.txt") as f:
     while line:
         print(line)
         line = f.readline()
+
+file = open("data_file/example.txt", "w")
+file.close()
