@@ -29,3 +29,8 @@ print(file.tell())
 print(file.read())
 
 file.close()
+
+with open("data_file/example.txt") as f:
+    data = f.readline()
+
+print(data)
