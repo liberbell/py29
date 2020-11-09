@@ -30,42 +30,48 @@
 
 # file.close()
 
-with open("data_file/example.txt") as f:
-    data = f.readlines()
+# with open("data_file/example.txt") as f:
+#     data = f.readlines()
 
-print(data)
-print(f.closed)
+# print(data)
+# print(f.closed)
 
-with open("data_file/example.txt") as f:
-    line = f.readline()
+# with open("data_file/example.txt") as f:
+#     line = f.readline()
 
-    while line:
-        print(line)
-        line = f.readline()
+#     while line:
+#         print(line)
+#         line = f.readline()
 
-file = open("data_file/sample.txt", "w")
-file.close()
+# file = open("data_file/sample.txt", "w")
+# file.close()
 
-file = open("data_file/sample.txt", "w")
-file.write("Let's check the write operation.")
-file.close()
+# file = open("data_file/sample.txt", "w")
+# file.write("Let's check the write operation.")
+# file.close()
 
-file = open("data_file/sample.txt")
-print(file.read())
-file.close()
+# file = open("data_file/sample.txt")
+# print(file.read())
+# file.close()
 
-file = open("data_file/sample.txt", "w")
-file.write("Let's check the write operation.")
+# file = open("data_file/sample.txt", "w")
+# file.write("Let's check the write operation.")
 
-file.seek(6)
-file.write(" examine ")
-file.close()
+# file.seek(6)
+# file.write(" examine ")
+# file.close()
 
-file = open("data_file/sample.txt")
-print(file.read())
-file.close()
+# file = open("data_file/sample.txt")
+# print(file.read())
+# file.close()
 
-file = open("data_file/sample.txt")
-for lines in file:
-    print(lines)
-file.close()
+# file = open("data_file/sample.txt")
+# for lines in file:
+#     print(lines)
+# file.close()
+
+with open("data_file/sample.txt", "w") as f:
+    f.write("First line\n")
+    f.write("Second line\n")
+    f.write("Third line\n")
+
