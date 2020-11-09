@@ -27,3 +27,5 @@ print(file.tell())
 print(file.read(15))
 print(file.tell())
 print(file.read())
+
+file.close()
