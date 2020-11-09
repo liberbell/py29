@@ -85,4 +85,5 @@ f.close()
 
 f = open("data_file/sample.txt", "r")
 print(f.readlines())
+print(f.fileno())
 f.close()
