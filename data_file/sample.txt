@@ -1,1 +1,3 @@
-Let's  examine  write operation.
+First line
+Second line 
+Third line

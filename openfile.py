@@ -70,10 +70,11 @@
 #     print(lines)
 # file.close()
 
-with open("data_file/sample.txt", "w") as f:
-    f.write("First line\n")
-    f.write("Second line\n")
-    f.write("Third line\n")
+# with open("data_file/sample.txt", "w") as f:
+#     f.write("First line\n")
+#     f.write("Second line \n")
+#     f.write("Third line\n")
 
 f = open("data_file/sample.txt", "a")
 print(f.tell())
+
