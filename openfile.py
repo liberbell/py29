@@ -34,3 +34,4 @@ with open("data_file/example.txt") as f:
     data = f.readlines()
 
 print(data)
+print(f.closed)
