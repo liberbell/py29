@@ -31,6 +31,6 @@
 # file.close()
 
 with open("data_file/example.txt") as f:
-    data = f.readline()
+    data = f.readlines()
 
 print(data)
