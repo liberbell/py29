@@ -53,3 +53,14 @@ file.close()
 file = open("data_file/sample.txt")
 print(file.read())
 file.close()
+
+file = open("data_file/sample.txt", "w")
+file.write("Let's check the write operation.")
+
+file.seek(6)
+file.write(" examine ")
+file.close()
+
+file = open("data_file/sample.txt")
+print(file.read())
+file.close()
