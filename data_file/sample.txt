@@ -1,1 +1,1 @@
-Let's check the write operation.
+Let's  examine  write operation.
