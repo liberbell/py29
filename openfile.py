@@ -78,3 +78,7 @@
 f = open("data_file/sample.txt", "a")
 print(f.tell())
 
+f.writelines("Another line was appended\n",
+             "What will it look like now?\n",
+             "Let's check it out\n")
+f.close()
