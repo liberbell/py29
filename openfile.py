@@ -93,9 +93,13 @@ import os
 # print(f.writable())
 # f.close()
 
-f = open("data_file/sample.txt", "a")
-print(f.tell())
+# f = open("data_file/sample.txt", "a")
+# print(f.tell())
 
-print(os.stat("data_file/sample.txt").st_size)
-print(f.truncate(37))
+# print(os.stat("data_file/sample.txt").st_size)
+# print(f.truncate(37))
+# f.close()
+
+f = open("data_file/sample.txt", "r")
+
 f.close()
