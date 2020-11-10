@@ -1,3 +1,5 @@
+import os
+
 # open("data_file/example.txt")
 # print(open("data_file/example.txt"))
 
@@ -93,3 +95,7 @@
 
 f = open("data_file/sample.txt", "a")
 print(f.tell())
+
+print(os.stat("data_file/sample.txt").st_size)
+
+f.close()
