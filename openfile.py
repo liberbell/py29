@@ -101,5 +101,6 @@ import os
 # f.close()
 
 f = open("data_file/sample.txt", "r")
+print(f.read())
 
 f.close()
