@@ -100,7 +100,13 @@ import os
 # print(f.truncate(37))
 # f.close()
 
-f = open("data_file/sample.txt", "r")
-print(f.read())
+# f = open("data_file/sample.txt", "r")
+# print(f.read())
 
+# f.close()
+
+f = open("data_file/sample.txt", "r+")
+f.writelines("We are doing an 'r+' operation." )
+
+print(f.readlines())
 f.close()
