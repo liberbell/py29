@@ -127,4 +127,5 @@ import os
 
 # f.close()
 
-os.rename("data_file/sample.txt", "data_file/changed_sample.txt")
+# os.rename("data_file/sample.txt", "data_file/changed_sample.txt")
+os.remove("data_file/changed_sample.txt")
