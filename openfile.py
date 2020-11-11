@@ -117,7 +117,12 @@ import os
 # print(f.readlines())
 # f.close()
 
-f = open("data_file/sample.txt", "r+")
+# f = open("data_file/sample.txt", "r+")
+# f.writelines("In 'r+' mode, the coursor is initially at the start of the file." )
+
+# f.close()
+
+f = open("data_file/sample.txt", "a+")
 f.writelines("In 'r+' mode, the coursor is initially at the start of the file." )
 
 f.close()
