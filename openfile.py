@@ -105,8 +105,19 @@ import os
 
 # f.close()
 
-f = open("data_file/sample.txt", "r+")
-f.writelines("We are doing an 'r+' operation." )
+# f = open("data_file/sample.txt", "r+")
+# f.writelines("We are doing an 'r+' operation." )
 
-print(f.readlines())
+# print(f.readlines())
+# f.close()
+
+# f = open("data_file/sample.txt", "r+")
+# f.writelines("We are doing an 'r+' operation." )
+
+# print(f.readlines())
+# f.close()
+
+f = open("data_file/sample.txt", "r+")
+f.writelines("In 'r+' mode, the coursor is initially at the start of the file." )
+
 f.close()
