@@ -1,1 +1,2 @@
 In 'r+' mode, the coursor is initially at the start of the file.ion.
+What does writing in 'a+' do?
