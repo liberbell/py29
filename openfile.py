@@ -122,7 +122,9 @@ import os
 
 # f.close()
 
-f = open("data_file/sample.txt", "a+")
-f.writelines("\nWhat does writing in 'a+' do?" )
+# f = open("data_file/sample.txt", "a+")
+# f.writelines("\nWhat does writing in 'a+' do?" )
 
-f.close()
+# f.close()
+
+os.rename("data_file/sample.txt", "data_file/changed_sample.txt")
