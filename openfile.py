@@ -123,6 +123,6 @@ import os
 # f.close()
 
 f = open("data_file/sample.txt", "a+")
-f.writelines("In 'r+' mode, the coursor is initially at the start of the file." )
+f.writelines("\nWhat does writing in 'a+' do?" )
 
 f.close()
