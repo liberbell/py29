@@ -10,3 +10,5 @@ car = """{ "model": "Civic",
 car_dict = json.loads(car)
 print(type(car))
 print(type(car_dict))
+
+print(car_dict)
