@@ -12,3 +12,4 @@ print(type(car))
 print(type(car_dict))
 
 print(car_dict)
+print(car_dict['variants'])
