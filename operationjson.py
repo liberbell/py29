@@ -13,3 +13,7 @@ print(type(car_dict))
 
 print(car_dict)
 print(car_dict['variants'])
+
+with open("data_file/currency.json", "r") as json_file:
+    data = json.loads(json_file)
+    print(data)
