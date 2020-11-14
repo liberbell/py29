@@ -21,3 +21,9 @@ with open("data_file/currency.json", "r") as json_file:
 currency = { "Country": "India", "Currency": "Rupee"}
 json_var = json.dumps(currency)
 print(json_var)
+
+print(type(json_var))
+
+with open("data_file/currency.json", "w") as json_file:
+    json_file.write(json_var)
+    print(type(json_file))
