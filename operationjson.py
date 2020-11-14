@@ -27,3 +27,7 @@ print(type(json_var))
 with open("data_file/currency.json", "w") as json_file:
     json_file.write(json_var)
     print(type(json_file))
+
+with open("data_file/currency.json", "r") as json_file:
+    data = json.load(json_file)
+    print(data)
