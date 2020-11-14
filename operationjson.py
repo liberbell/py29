@@ -8,4 +8,5 @@ car = """{ "model": "Civic",
 # print(car)
 
 car_dict = json.loads(car)
+print(type(car))
 print(type(car_dict))
