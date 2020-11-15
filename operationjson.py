@@ -31,3 +31,6 @@ with open("data_file/currency.json", "w") as json_file:
 with open("data_file/currency.json", "r") as json_file:
     data = json.load(json_file)
     print(data)
+
+written_data = json.load(open("data_file/currency.json"))
+print(written_data)
