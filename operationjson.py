@@ -42,3 +42,4 @@ dessert = { "Name" : "Ice Cream",
 
 dessert_str = json.dumps(dessert)
 print(dessert_str)
+print(type(dessert_str))
