@@ -48,3 +48,4 @@ print(type(dessert_str))
 #     json.dump(dessert, json_file)
 
 print(dessert)
+print(json.dumps(dessert, indent=2))
