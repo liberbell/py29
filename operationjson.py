@@ -36,7 +36,7 @@ written_data = json.load(open("data_file/currency.json"))
 print(written_data)
 
 dessert = { "Name" : "Ice Cream",
-            "Flavors": ["Chocolate", "Pinapple"],
+            "Flavors": ["Chocolate", "Pineapple"],
             "Toppings": True,
             "Wafflecone": "Yes"}
 
@@ -49,3 +49,4 @@ print(type(dessert_str))
 
 print(dessert)
 print(json.dumps(dessert, indent=2))
+print(json.dumps(dessert, separators=":", "="))
