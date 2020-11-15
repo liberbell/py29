@@ -34,3 +34,8 @@ with open("data_file/currency.json", "r") as json_file:
 
 written_data = json.load(open("data_file/currency.json"))
 print(written_data)
+
+dessert = { "Name" : "Ice Cream",
+            "Flavors": ["Chocolate", "Pinapple"],
+            "Toppings": True,
+            "Wafflecone": "Yes"}
