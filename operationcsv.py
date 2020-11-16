@@ -57,9 +57,15 @@ names = [["First Name", "Last Name"],
          ["Jerome", "Jackson"],
          ["Jia", "Zhong"]]
 
-file = open("data_file/names.csv", "w")
+# file = open("data_file/names.csv", "w")
 
-with file:
-    file_writer = csv.writer(file)
-    for row in names:
-        file_writer.writerow(row)
+# with file:
+#     file_writer = csv.writer(file)
+#     for row in names:
+#         file_writer.writerow(row)
+
+nums = [[10, 20, 30],
+        [40, 50, 60],
+        [70, 80, 90]]
+
+file = open("data_file/nums.csv", "w")
