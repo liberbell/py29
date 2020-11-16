@@ -68,8 +68,14 @@ nums = [[10, 20, 30],
         [40, 50, 60],
         [70, 80, 90]]
 
-file = open("data_file/numbers.csv", "w")
+# file = open("data_file/numbers.csv", "w")
+
+# with file:
+#     write = csv.writer(file)
+#     write.writerows(nums)
+
+file = open("data_file/names.csv", "w")
 
 with file:
-    write = csv.writer(file)
-    write.writerows(nums)
+    fnames = ["First Name", "Last Name"]
+    writer = csv.DictWriter(file, fieldnames=fnames)
