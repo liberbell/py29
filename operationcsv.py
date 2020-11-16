@@ -51,3 +51,8 @@ with file:
     read = csv.DictReader(file)
     for row in read:
         print(row)
+
+names = [["First Name", "Last Name"],
+         ["Sofia", "Reyes"],
+         ["Jerome", "Jackson"]
+         ["Jia", "Zhong"]]
