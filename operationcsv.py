@@ -44,3 +44,10 @@ with file:
         print(dict(row))
 
 print("--------\n")
+
+file = open("data_file/record.csv", "r")
+
+with file:
+    read = csv.DictReader(file)
+    for row in read:
+        print(row)
