@@ -54,7 +54,7 @@ with file:
 
 names = [["First Name", "Last Name"],
          ["Sofia", "Reyes"],
-         ["Jerome", "Jackson"]
+         ["Jerome", "Jackson"],
          ["Jia", "Zhong"]]
 
 file = open("data_file/names.csv", "w")
