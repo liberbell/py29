@@ -42,3 +42,5 @@ with file:
     read = csv.DictReader(file)
     for row in read:
         print(dict(row))
+
+print("--------\n")
