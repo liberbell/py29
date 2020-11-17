@@ -85,10 +85,12 @@ nums = [[10, 20, 30],
 #     writer.writerow(({"First Name" : "Jerome", "Last Name": "Jackson"}))
 #     writer.writerow(({"First Name" : "Jia", "Last Name": "Zhong"}))
 
-csv.register_dialect("tab", delimiter="\t")
+# csv.register_dialect("tab", delimiter="\t")
 
-with open("data_file/record_tab.csv", "r") as f:
-    reader = csv.reader(f, dialect = "tab")
+# with open("data_file/record_tab.csv", "r") as f:
+#     reader = csv.reader(f, dialect = "tab")
 
-    for row in reader:
-        print(row)
+#     for row in reader:
+#         print(row)
+
+csv.register_dialect("plus", delimiter="+", lineterminator="\n\n\r")
