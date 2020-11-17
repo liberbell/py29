@@ -88,7 +88,7 @@ nums = [[10, 20, 30],
 csv.register_dialect("tab", delimiter="\t")
 
 with open("data_file/record_tab.csv", "r") as f:
-    reader = f.reader(f, dialect = "tab")
+    reader = csv.reader(f, dialect = "tab")
 
     for row in reader:
         print(row)
