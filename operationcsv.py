@@ -79,3 +79,8 @@ file = open("data_file/names.csv", "w")
 with file:
     fnames = ["First Name", "Last Name"]
     writer = csv.DictWriter(file, fieldnames=fnames)
+
+    writer.writeheader()
+    writer.writerow(({"First Name" : "Sofia", "Last Name": "Reyes"}))
+    writer.writerow(({"First Name" : "Jerome", "Last Name": "Jackson"}))
+    writer.writerow(({"First Name" : "Jia", "Last Name": "Zhong"}))
