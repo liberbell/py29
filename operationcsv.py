@@ -93,7 +93,7 @@ nums = [[10, 20, 30],
 #     for row in reader:
 #         print(row)
 
-csv.register_dialect("plus", delimiter="+", lineterminator="\n\n\r")
+csv.register_dialect("plus", delimiter="+", lineterminator="\n\r")
 
 file = open("data_file/names_dialect.csv", "w")
 
