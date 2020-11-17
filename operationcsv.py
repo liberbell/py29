@@ -86,3 +86,6 @@ nums = [[10, 20, 30],
 #     writer.writerow(({"First Name" : "Jia", "Last Name": "Zhong"}))
 
 csv.register_dialect("tab", delimiter="\t")
+
+with open("data_file/record_tab.csv", "r") as f:
+    reader = f.reader(f, dialect = "tab")
